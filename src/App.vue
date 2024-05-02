@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import SpendingChart from '@/components/SpendingChart.vue'
+</script>
 
 <template>
   <header>
@@ -13,7 +15,7 @@
   <main>
     <h1>Spending - Last 7 days</h1>
   
-    mon tue wed thu fri sat sun
+    <SpendingChart />
     
     <div class="underline" />
 
