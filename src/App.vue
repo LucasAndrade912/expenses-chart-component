@@ -58,8 +58,8 @@ import SpendingChart from '@/components/SpendingChart.vue'
   }
 
   header .balance-container #balance {
-    margin-top: 8px;
-    font-size: 32px;
+    margin-top: 0.5rem;
+    font-size: 2rem;
     font-weight: 700;
   }
 
@@ -103,5 +103,23 @@ import SpendingChart from '@/components/SpendingChart.vue'
 
   main footer strong#amount {
     font-size: 3rem;
+  }
+
+  @media (max-width: 425px) {
+    main {
+      padding: 2rem 1.125rem;
+    }
+
+    main h1 {
+      font-size: 1.5rem;
+    }
+
+    main footer span, strong {
+      font-size: 0.875rem;
+    }
+
+    main footer strong#amount {
+      font-size: 2rem;
+    }
   }
 </style>
